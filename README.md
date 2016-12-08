@@ -27,7 +27,9 @@ Update the following file with your account number, credentials and currency det
 
 Run the following commands: 
     
+    cd sample_rails_app/
     bundle install
+    bundle exec rake rails:update:bin
     rails server
 
 Open your web browser and navigate to:
